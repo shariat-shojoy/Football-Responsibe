@@ -5,6 +5,7 @@ body{
 }
 /* header start */
 .container{
+    
     display: flex;
     background-color: #2D25A0;
     height:677px;
@@ -14,7 +15,7 @@ body{
 .copa-america{
     
     margin-top: 196px;
-    margin-bottom: 251px;
+    margin-bottom: 300px;
     margin-left: 167px;
 
     width: 50%;
@@ -24,6 +25,7 @@ body{
     font-size: 64px;
     line-height: 80px;
     color: #FFFFFF;
+    margin-bottom: 200pxS;
 }
 
 .kick{
@@ -32,7 +34,7 @@ body{
     margin-bottom: 86px;
     margin-top:153px ;
     height: 557px;
-    width: 50%;
+    width: 60%;
 
 
 }
@@ -53,8 +55,12 @@ body{
     text-decoration: none;
     color: white;
     padding: 10px 24px;
+    margin-bottom: 173px;
     
 }
+ i{
+     color: white;
+ }
  /* header end */
  /* main start--player account */
 
@@ -91,12 +97,19 @@ body{
 }
 
 /* main end --player account */
+
+/*-------------------------------
+ extra part-1 table start
+ -------------------------------- */
+ .top-score{
+    text-align: center;
+    margin-top: 70px;
+ }
   
 table{
       
-      margin-left: 140px;
-      margin-right: 210px;
-      width: 80%;
+    
+      width: 100%;
       text-align: center;
       border-collapse: collapse;
 }
@@ -111,11 +124,15 @@ td, th {
 tr:nth-child(2n){
     background-color: #dddddd;
 }
-.top-score{
-      text-align: center;
-      margin-top: 70px;
 
-}
+
+/*-------------------------------
+ extra part-1 table end
+ -------------------------------- */
+ /* -----------------------------------
+extra part -2 champion part start
+ -------------------------- */
+
 .champ-2021{
     font-size: 30px;
     text-align: center;
@@ -144,8 +161,11 @@ tr:nth-child(2n){
 
 }
 .champion-info{
-    width: 90%;
+    width: 95%;
     margin-left: 30PX;
+}
+.champion-info h3{
+    margin-top: 30px;
 }
     
 
@@ -154,4 +174,215 @@ tr:nth-child(2n){
     font-weight: bold;
     margin-bottom: 0;
     margin-top: 0;
+}
+/* -----------------------------------
+extra part -2 champion part start
+ -------------------------- */
+  /* optional part highlights start */
+.highlight{
+    display: flex;
+    margin-left: 140px;
+    margin-right: 120px;
+    margin-top: 165px;
+    
+}
+.highlight-info{
+    width: 50%;
+
+}
+.highlight-info h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #0A0826;
+    margin-bottom: 8px;
+}
+.highlight-info p{
+    font-size: 16px;
+    color: #6C6C6C;
+    width: 404px;
+    
+}
+
+
+.highlight-img{
+    width: 50%;
+    margin-left: 69px;
+}
+.highlight-img img{
+    width: 100%;
+}
+  /* optional part highlights end*/
+
+/* footer start */
+.footer{
+    margin-top: 158px;
+    margin-bottom: 63px;
+}
+.logo{
+    text-align: center;
+}
+.logo img{
+    height: 110px;
+    width: 483px;
+    
+}
+.icon{
+    text-align: center;
+    margin-top: 20px;
+}
+.fab{
+    height: 32px;
+    width: 32px;
+    margin-right: 14px;
+    color: gray;
+    margin-bottom: 0%;
+}
+.fas{
+    height: 32px;
+    width: 32px;
+    margin-right: 14px;
+    
+    margin-bottom: 0px;
+}
+#icon-color{
+    color:gray;
+}
+.copy{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 0%;
+}
+/* footer end */
+/*----------------------------------------
+ media queries start
+ -------------------------------- */
+ /* for mobile */
+ /* header start*/
+@media (max-width: 688px) {
+    .container{
+        width:100%;
+        flex-direction: column;
+        height: 50%;
+        margin-left: 0;
+        margin-right: 0;
+        border: 0%;
+
+    }
+    .copa-america{
+        width: 100%;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 0px;
+        border: 0%;
+        margin-top: 112px;
+    }
+    .copa-america h1{
+        font-size: 36px;
+        margin-right: 50px;
+    }
+    .kick img{
+        width: 100%;
+        margin-right: 0%;
+        margin-left: 40px;
+        margin-top: 0%;
+    }
+
+    
+
+    
+    
+    .players{
+        grid-template-columns: repeat(1,1fr);
+        margin-left:0px;
+        margin-right: 0px;
+        width: 70%;
+        
+    }
+    .player{
+        width: 100%;
+        margin: 0%;
+    }
+    .player img{
+        width: 90%;
+        
+    }
+    .player-info{
+        width: 90%;
+    }
+    /* table start */
+    .table{
+        margin-left: 0px;
+        width: 90%;
+    }
+    td,th{
+        padding: 0px;
+        font-size: 12px;
+    }
+    .top-score{
+        width: 90%;
+    }
+    
+    /* table end */
+    .champ-2021{
+        width: 50%;
+        margin-right: 15px;
+        margin-right: 20px;
+        margin-left: 0px;
+
+    }
+    .champ-2021 h1{
+        font-size: 25px;
+        width: 100%;
+    }
+
+
+    #champion{
+        width: 100%;
+        display: flex;
+        flex-direction:column;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+ .champion-img{
+     margin-left: 0px;
+ }
+    .champion-info h1{
+        font-size: 20px;
+    }
+.highlight{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 70%;
+
+}
+.highlight-info{
+    width: 10%;
+    margin-right: 0%;
+}
+.highlight-info{
+    width: 50%;
+    
+}
+.margin{
+    width: 40%;
+}
+.highlight-img{
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+#pere{
+    width: 200px;
+}
+.footer{
+    text-align: left;
+    width: 60%;
+    
+}
+.iogo img{
+    width: 200px;
+}
+
 }
