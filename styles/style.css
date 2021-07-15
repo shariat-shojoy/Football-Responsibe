@@ -283,8 +283,8 @@ extra part -2 champion part start
     .kick img{
         width: 100%;
         margin-right: 0%;
-        margin-left: 40px;
         margin-top: 0%;
+        margin-left: 50px;
     }
 
     
@@ -295,15 +295,18 @@ extra part -2 champion part start
         grid-template-columns: repeat(1,1fr);
         margin-left:0px;
         margin-right: 0px;
-        width: 70%;
+        
+        width: 330px;
+        
         
     }
     .player{
         width: 100%;
-        margin: 0%;
+        margin-right: 0px;
+        height: 100%;
     }
     .player img{
-        width: 90%;
+        width: 100%;
         
     }
     .player-info{
@@ -340,14 +343,18 @@ extra part -2 champion part start
         width: 100%;
         display: flex;
         flex-direction:column;
-        margin-left: 0%;
-        margin-right: 0%;
+        margin-left: 0px;
+        margin-right: 0px;
     }
  .champion-img{
      margin-left: 0px;
  }
+ .champion-info{
+     margin-left: 0px;
+ }
     .champion-info h1{
         font-size: 20px;
+        margin-left: 0px;
     }
 .highlight{
     display: flex;
@@ -381,8 +388,9 @@ extra part -2 champion part start
     width: 60%;
     
 }
-.iogo img{
-    width: 200px;
+.footer img{
+    height: 63px;
+    width: 173px;
 }
 
 }
